@@ -1,9 +1,7 @@
 import BigNumber from "bignumber.js";
+import PrecisionTradingIndicators from "precision-trading-indicators";
 import { KlinePayload } from "./type";
 import { initialOHLCV } from "./constant";
-
-// @ts-ignore
-import PrecisionTradingIndicators from "precision-trading-indicators";
 
 export const buildIndicatorOutput = (data: KlinePayload[], period = 14) => {
   const indicator = new PrecisionTradingIndicators(BigNumber);
