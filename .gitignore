@@ -1,0 +1,8 @@
+# dependency
+node_modules
+
+# bundle
+bin
+
+# temporary
+.parcel-cache
