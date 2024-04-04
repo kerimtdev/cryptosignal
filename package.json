@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node bin/app.js",
-    "build": "pnpm run clean:build && parcel build ./src/app.ts --dist-dir ./bin",
+    "build": "pnpm run clean:build && parcel build ./src/app.ts --dist-dir ./bin --no-source-maps --no-cache",
     "clean:build": "rimraf .parcel-cache ./bin"
   },
   "keywords": [],
