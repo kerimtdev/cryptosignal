@@ -10,7 +10,7 @@
     "default": {
       "context": "node",
       "distDir": "./bin",
-      "outputFormat": "commonjs",
+      "outputFormat": "esmodule",
       "isLibrary": false
     }
   },
